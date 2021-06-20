@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SAYAN123</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- FLEXBOX -->
+
+    <div class="container">
+        <div class="card box1">
+            <h2>Hello!</h2>
+        </div>
+        <div class="card box2">
+            <img src="img/4.jpg" alt="">
+        </div>
+        <div class="card box3"></div>
+        <div class="card box4">
+            <p>Lorem Ipsum is simply dummy text of the printing and 
+                typesetting industry. Lorem Ipsum has been the 
+                industry's standard dummy text ever since the 1500s,
+                 when an unknown printer took a galley of type and 
+                 scrambled it to make a type specimen book. It has 
+                 survived not only five centuries, but also the leap 
+                 into electronic typesetting, remaining essentially 
+                 unchanged.</p> <br>
+             <a href="#">Know More</a>
+        </div>
+    
+    <!-- HTML LISTS -->
+
+    </div>
+    <div class="list">
+        <ul type='square'>
+            <li>sayan</li>
+            <li>abc</li>
+            <li>xyz</li>
+        </ul>
+    </div>
+
+    <!-- HTML TABLE -->
+
+    <div class="html_table">
+        <h2>student data</h2>
+        <table>
+            <tr><th>id</th><th>name</th><th>email</th><th>class</th></tr>
+            <tr><th>1</th><th>sayan</th><th>xyz@gmail.com</th><th>XII</th></tr>
+            <tr><th>2</th><th>heera</th><th>abc@gmail.com</th><th>XI</th></tr>
+        </table>
+    </div> 
+</body>
+</html>
