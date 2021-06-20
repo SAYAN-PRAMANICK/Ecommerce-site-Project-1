@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+}
+.container .card{
+    border: 1px solid black;
+    width: 25%;
+    height: 300px;
+}
+.container .box1 {
+    background-image: url(img/2.jpg);
+    background-size: cover;
+}
+.container .box1 h2{
+    text-align: center;
+    padding-top: 100px;  
+}
+.container .box2 img{
+    width:100%;
+    height: 100%;
+}
+
+.container .box4 p{
+    padding: 10px;
+}
+.container .box4 a{
+    text-decoration: none;
+    padding: 2%;
+    user-select: none;
+    background-color: goldenrod;
+}
+.container .box4 a:hover{
+    color: seagreen;
+    font-weight: bolder;
+}
+.html_table{
+    background-image: linear-gradient(30deg,white,grey,white,grey);
+    border: 1px dotted red;
+    border-radius: 30px;
+}
+.html_table h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    padding: 10px;
+    color: yellowgreen;
+}
+.html_table table{
+    
+    width: 100%;
+    padding: 10px;
+}
+.html_table th,td{
+    border: black 1px solid;
+    color: black;
+}
