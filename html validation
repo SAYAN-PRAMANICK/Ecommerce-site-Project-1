@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SAYAN123</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- HTML VALIDATION -->
+
+    <div class="html_form">
+        <form action="">
+            <h2>Register</h2>
+            
+            <input type="text" placeholder="Full Name" required>
+            <br>
+            <input type="email" placeholder="Email ID" required>
+            <br>
+            <input type="number" placeholder="Contact Number" required>
+            <br>
+            <select required>
+                <option>--branch--</option>
+                <option>ECE</option>
+                <option>CSE</option>
+                <option>ME</option>
+                <option>CE</option>
+                <option>EEE</option>
+            </select>
+            <br>
+            <select required>
+                <option>--year--</option>
+                <option>1st</option>
+                <option>2nd</option>
+                <option>3rd</option>
+                <option>4th</option>
+            </select>
+            <br>
+            <input type="text" placeholder="college name" required>
+            <br>
+            <button type="submit">Register</button>
+            <button type="reset">Refresh</button>
+        </form>
+    </div>
+
+    
+
+    
+</body>
+</html>
