@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SAYAN123</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- JS VALIDATION -->
+
+    <div class="html_form">
+        <form onsubmit="return validation()">
+            <h2>Register</h2>
+            
+            <input id="username" type="text" placeholder="Full Name" >
+            <br>
+            <span id="errorname" style="color: red;"></span>
+
+            <input id="email" type="email" placeholder="Email ID" >
+            <br>
+            <span id="erroremail" style="color: red;"></span>
+
+            <input id="number" type="number" placeholder="Contact Number" >
+            <br>
+            <span id="errornumber" style="color: red;"></span>
+            
+            <select required>
+                <option>--branch--</option>
+                <option>ECE</option>
+                <option>CSE</option>
+                <option>ME</option>
+                <option>CE</option>
+                <option>EEE</option>
+            </select>
+            <br>
+            <select required>
+                <option>--year--</option>
+                <option>1st</option>
+                <option>2nd</option>
+                <option>3rd</option>
+                <option>4th</option>
+            </select>
+            <br>
+            <input type="text" placeholder="college name" >
+            <br>
+            <button type="submit">Register</button>
+            <button type="reset">Refresh</button>
+        </form>
+
+    </div>
+
+    <script>
+        function validation(){
+            var username=document.getElementById('username').value;
+            var email=document.getElementById('email').value;
+            var number=document.getElementById('number').value;
+
+            var usercheck= /^[A-Za-z]{3,30}$/;
+            var emailcheck= /^[a-z_.0-9]{3,}[@]{1}[a-z]{3,}[.]{1}[a-z.]{2,6}$/;
+            var numbercheck = /^[6789][0-9]{9}$/;
+
+            if (usercheck.test(username)){
+                document.getElementById('errorname').innerHTML=" ".required;
+            }
+            else{
+                document.getElementById('errorname').innerHTML="**INVALID NAME";
+                return false;
+            }
+
+            if (emailcheck.test(email)){
+                document.getElementById('erroremail').innerHTML=" ";
+            }
+            else{
+                document.getElementById('erroremail').innerHTML="**INVALID EMAIL";
+                return false;
+            }
+
+            if (numbercheck.test(number)){
+                document.getElementById('errornumber').innerHTML=" ";
+            }
+            else{
+                document.getElementById('errornumber').innerHTML="**INVALID NUMBER";
+                return false;
+            
+            }
+
+        }
+    </script>
+
+    
+
+    
+</body>
+</html>
